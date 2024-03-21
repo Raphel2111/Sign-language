@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 31
+names: ['N', 'a', 'b', 'c', 'ch', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'll', 'm', 'n', 'o', 'otro', 'p', 'q', 'r', 'rr', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+roboflow:
+  workspace: signs-language
+  project: signlanguage-5kmtf
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/signs-language/signlanguage-5kmtf/dataset/3
